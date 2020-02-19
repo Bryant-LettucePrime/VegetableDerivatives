@@ -52,13 +52,6 @@ body {
     padding-top: 5vh;
 }
 
-#me {
-    opacity: 0;
-    transition: opacity 15s;
-    transition-delay: 3.5s;
-}
-
-
 #right {
     display: flex;
     height: 100vh;
