@@ -2,32 +2,40 @@
 <html>
     <head>
         <title>oh god</title>
+        <script type="text/javascript" src="testJavaScript.js">/**/</script>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="webCSS1_02-17-20.css" />
         <link rel="shortcut icon" href="media/me.png" />
+        
+        <!--bb: I have no explanation for why lines 10-14 have to look the way they do. Stack Overflow told me so.-->
         <style>
             #me {
                 opacity: 0;
                 transition: opacity 15s;
                 transition-delay: 3.5s;
             }
-        </style><!--bb: I have no explanation for why lines 10-14 have to look the way they do. Stack Overflow told me so.-->
+        </style>
     </head>
+    
     <body>
+        <!--bb: Over the moon that this audio works. Thank you again Stack Overflow. Music is a possibly proprietary arrangment of 'Adagio for Strings' from the intro to Homeworld: https://youtu.be/fmY5VbEo8VI-->
         <iframe src="beep-03.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
         <audio autoplay>
             <source src="media/Homeworld-adagio_for_strings_choral.mp3" type="audio/mpeg">
             <source src="media/Homeworld-adagio_for_strings_choral.ogg" type="audio/ogg">
             Your browser does not support the audio elements
         </audio>
-        <!--bb: Fucking over the moon that this shit works. Thank you again Stack Overflow.-->
+        
         <div id="left">
             <img onload="this.style.opacity='2'" id="me" src="media/me.png" alt="Mistake man" />
+            <p id = "me_text"></p>
         </div>
+        
         <div id="right">
-            <p>this man is a fool</p>
+            <p>look at this idiot</p>
             <p>it took him seven hours to learn how to do this in CSS</p>
+            <p>do not mouse over his image</p>
             <p>he has a</p>
             <!--#include virtual="outsideLinks.html" -->
              <p><a class="link" href="https://github.com/Bryant-LettucePrime">github</a> | <a class="link" href="https://twitter.com/lettuce_bryant">twitter</a> | 
